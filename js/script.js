@@ -27,5 +27,6 @@ var Hello = /** @class */ (function () {
 }());
 var h = new Hello();
 h.hello();
-//console.log( h.str + " , " + h.str2 ); 
-//# sourceMappingURL=hello.js.map
+h.str2 = " 나나나11112233";
+console.log("h.str : " + h.str2);
+document.getElementById("result_div").innerHTML = h.str2;

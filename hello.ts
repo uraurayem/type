@@ -1,5 +1,5 @@
 class Hello {
-    private str:string = '프라이빗';
+    public str:string = '프라이빗';
     public str2:string = '퍼블릭';
     private test():void { 
         console.log("1234");
@@ -28,4 +28,6 @@ class Hello {
 
 var h  = new Hello();
 h.hello();
-//console.log( h.str + " , " + h.str2 );
+h.str2 =" 나나나11112233" ;
+console.log("h.str : " + h.str2 ) ;
+document.getElementById("result_div").innerHTML = h.str2 ;
